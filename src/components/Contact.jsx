@@ -23,11 +23,11 @@ const Contact = () => {
   };
 
   return (
-    <div className=" m-[0 auto] p-5  ">
-      <h1 className="font-bold mb-4 text-center color-[#] ">Contact Us</h1>
+    <div className="bg-slate-800 text-white ">
+      <h1 className="font-bold py-4 text-center  ">Contact Us</h1>
       <p className="mb-4 text-center">We would love to hear from you! Fill out the form below and we will get back to you as soon as possible.</p>
       {!submitted ? (
-        <form onSubmit={handleSubmit} className="flex flex-col items-center gap-8 w-full">
+        <form onSubmit={handleSubmit} className="flex flex-col pl-80 gap-8 w-full">
           <div className=" flex flex-col">
             <label htmlFor="name">Name</label>
             <input
@@ -38,7 +38,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Enter your name"
               required
-              className="w-full px-10 py-1 border-2"
+              className="w-8/12 px-10 bg-slate-500 py-1 border-2"
             />
           </div>
 
@@ -52,7 +52,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Enter your email"
               required
-              className="w-full px-10 py-1 border-2"
+              className="w-8/12 px-10 py-1 bg-slate-500 border-2"
             />
           </div>
           <div className=" flex flex-col">
@@ -64,10 +64,10 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Write your message here"
               required
-              className=" h-56 w-72 border-2"
+              className=" h-56 w-8/12 bg-slate-500  border-2"
             ></textarea>
           </div>
-          <button type="submit" className="px-4 py-2 bg-green-500">
+          <button type="submit" className="px-4 w-8/12 py-2 bg-green-500">
             Send Message
           </button>
         </form>

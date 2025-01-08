@@ -16,6 +16,7 @@ function App() {
     <div>
 
       <Navbar />
+
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/Shop' element={<Shop />}></Route>
@@ -26,6 +27,7 @@ function App() {
           <Route path='/login' element={<Login />}></Route>
           <Route path='/sign' element={<Register/>}></Route>
         </Routes>
+        
       <Footer />
 
         

@@ -31,8 +31,8 @@ const AboutUs = () => {
             <div className="text-center">
               <img
                 src="https://via.placeholder.com/150"
-                alt="Team Member"
-                className="w-32 h-32 rounded-full mx-auto shadow-lg"
+                // alt="Team Member"
+                className="w-32 h-32 rounded-full mx-auto border shadow-lg"
               />
               <h3 className="mt-4 text-lg font-medium text-white">Muneeb</h3>
               <p className="text-sm text-gray-500">CEO</p>
@@ -41,8 +41,8 @@ const AboutUs = () => {
             <div className="text-center">
               <img
                 src="https://via.placeholder.com/150"
-                alt="Team Member"
-                className="w-32 h-32 rounded-full mx-auto shadow-lg"
+                // alt="Team Member"
+                className="w-32 h-32 rounded-full mx-auto border shadow-lg"
               />
               <h3 className="mt-4 text-lg font-medium text-white">Wase</h3>
               <p className="text-sm text-gray-500">Marketing Head</p>
@@ -51,8 +51,8 @@ const AboutUs = () => {
             <div className="text-center">
               <img
                 src="https://via.placeholder.com/150"
-                alt="Team Member"
-                className="w-32 h-32 rounded-full mx-auto shadow-lg"
+                // alt="Team Member"
+                className="w-32 h-32 rounded-full mx-auto border shadow-lg"
               />
               <h3 className="mt-4 text-lg font-medium text-white">Noman</h3>
               <p className="text-sm text-gray-500">Tech Lead</p>
@@ -61,8 +61,8 @@ const AboutUs = () => {
             <div className="text-center">
               <img
                 src="https://via.placeholder.com/150"
-                alt="Team Member"
-                className="w-32 h-32 rounded-full mx-auto shadow-lg"
+                // alt="Team Member"
+                className="w-32 h-32 rounded-full mx-auto border shadow-lg"
               />
               <h3 className="mt-4 text-lg font-medium text-white">Abdul Rafey</h3>
               <p className="text-sm text-gray-500">Customer Support</p>
